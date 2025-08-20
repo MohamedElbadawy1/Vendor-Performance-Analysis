@@ -72,6 +72,7 @@ pip install -r requirements.txt
 
 **1. Load raw data into SQLite database:**
 ```bash
+# This script ingests data from multiple large tables, including a sales table with over 14M rows and a purchase table with over 4M rows.
 python scripts/ingestDB.py
 ```
 
